@@ -402,13 +402,6 @@ input {
 
 /*CSS rules for contact page and form*/
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: none;
-}
-
 .wrapper{
   width: 50%;
   max-width: 400px;
