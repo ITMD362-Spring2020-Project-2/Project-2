@@ -128,6 +128,18 @@ aside {
   flex-basis: 150px;
 }
 
+/* Rules for quotes */
+.quote {
+  font-size: 1.75rem;
+  font-style: italic;
+}
+
+.author {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+/* FOOTER */
 #footer {
   display: flex;
   justify-content: center;
