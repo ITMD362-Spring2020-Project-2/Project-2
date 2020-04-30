@@ -112,6 +112,8 @@ img {
 
 main {
   display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
 }
 
 article {
@@ -126,6 +128,19 @@ aside {
   flex-basis: 150px;
 }
 
+/* Rules for quotes */
+.quote {
+  font-size: 1.75rem;
+  font-style: italic;
+}
+
+.author {
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-align: right;
+}
+
+/* FOOTER */
 #footer {
   display: flex;
   justify-content: center;
