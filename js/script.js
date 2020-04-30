@@ -84,7 +84,7 @@ window.addEventListener('load', init);
 /*
 Slideshow for index.html
 */
-function init1() {
+/*function init1() {
  var slideIndex = 1;
  showImage(slideIndex);
  
@@ -103,7 +103,7 @@ function init1() {
   x[slideIndex-1].style.display = "block";
  }
 }
-window.addEventListener('load', init1);
+window.addEventListener('load', init1);*/
 
 /*
 The code below displays collapsible content panels for presenting information in a limited amount of space.
