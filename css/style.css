@@ -7,7 +7,7 @@ html, body {
   padding: 0;
   font-size: 1em;
   line-height: 1.5;
-  background-color: #EFEEEA; /*Parnip*/
+  background-color: #A8D6BD;
   font-family: 'Montserrat', 'Helvetica', sans-serif;
 }
 
@@ -120,12 +120,21 @@ article {
   flex-grow: 3;
   flex-shrink: 0;
   flex-basis: 300px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 3rem;
+  padding-right: 1.5rem;
 }
 
 aside {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 150px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 3rem;
+  padding-bottom: 1.5rem;
 }
 
 /* Rules for quotes */
@@ -193,7 +202,6 @@ p#container_social_links {
 
 #feature {
   margin: 0;
-  padding: 25px 35px 35px 50px;
   background-color: #A8D6BD;
   color: #241C15; /*Peppercorn*/
 }
