@@ -137,6 +137,7 @@ aside {
 .author {
   font-size: 1.75rem;
   font-weight: bold;
+  text-align: right;
 }
 
 /* FOOTER */
