@@ -200,7 +200,7 @@ p#container_social_links {
   text-decoration: underline;
 }
 
-#feature {
+.feature {
   margin: 0;
   background-color: #A8D6BD;
   color: #241C15; /*Peppercorn*/
