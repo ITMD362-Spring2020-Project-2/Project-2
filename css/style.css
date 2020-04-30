@@ -283,17 +283,7 @@ p {
 }
 
 /* CSS rules for a map */
-#map_wrap {
-  overflow: hidden;
-  padding-top: 56.25%;
-  position: relative;
-}
-
 #map {
-  position: absolute;
-  border: 0;
-  top: 0;
-  left: 0;
   width: 100%;
   height: auto;
 }
