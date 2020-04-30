@@ -284,18 +284,16 @@ p {
 
 /* CSS rules for a map */
 #map_wrap {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 90%;
-  height: 75%;
-  margin-top: 1em;
-  margin-left: auto;
-  margin-right: auto;
   overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
 }
 
 #map {
+  position: absolute;
+  border: 0;
+  top: 0;
+  left: 0;
   width: 100%;
   height: auto;
 }
