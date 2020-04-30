@@ -294,8 +294,8 @@ p {
 }
 
 #map {
-  height: 100%;
   width: 100%;
+  height: auto;
 }
 
 /* CSS rules for accordion with symbols */
