@@ -36,7 +36,23 @@
 
 google.maps.event.addDomListener(window, 'load', init); */
 
-function init() {
+/* <script>
+        // Initialize and add the map
+        function initMap() {
+          // The location of the Grant Park
+          var grantpark = {lat: 41.8722, lng: -87.6188};
+          // The map, centered at the Grant Park
+          var map = new google.maps.Map(
+            document.getElementById('map'), {zoom: 14, center: grantpark});
+          // The marker, positioned at the Grant Park
+          var marker = new google.maps.Marker({position: grantpark, map: map});
+        }
+      </script>
+      <script async defer 
+              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA77g_yn1m1Od_5DX-M35wVkNMHE4nXUYI&callback=initMap">
+      </script> */
+
+/* function init() {
   var el = document.getElementById('map');
   var myLocation = new google.maps.LatLng(41.932112, -87.688162);
   var mapOptions = {
@@ -79,4 +95,4 @@ function init() {
       zIndex: local[3]
     });
   }
-}
+} */
