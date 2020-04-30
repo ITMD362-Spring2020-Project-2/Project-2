@@ -265,8 +265,11 @@ p {
 }
 
 .gallery_image {
-  width: 100%;
   border-radius: 50%
+}
+
+.slide_image {
+  display: block;
 }
 
 /* Responsive iframe */
